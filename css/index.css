@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+/*navbar*/
+
+.main-navbar{
+    background: white;
+    box-shadow: 0px 0px 20px gray;
+}
+
+.main-navbar .logo{
+    width: 100%;
+}
+.main-navbar ul{
+    display: flex;
+    align-items: center;
+}
+.main-navbar ul li{
+    margin: 20px;
+    list-style-type: none;
+    align-items: center;
+}
+.main-navbar ul li a{
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main-navbar ul li a:hover{
+    color: lightgray;
+}
+.main-navbar button{
+    border: none;
+    background: rgb(248, 157, 83);
+    border-radius: 0.5rem;
+    padding: 10px;
+}
+.main-navbar button:hover{
+    background:  rgb(240, 116, 15);
+    border-radius: 0.5rem;
+    padding: 10px;
+    color: white;
+    transition: .4s;
+}
+.main-navbar i{
+    line-height: 50%;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*slidebar*/
+.slidebar{
+    width: 100%;
+}
+.slidebar .head{
+    margin-left: 350px;
+}
+.slidebar .head-title{
+    color: darkblue;
+}
+.slidebar p{
+    opacity: 80%;
+}
+.slidebar button{
+    border: none;
+    background: rgba(64, 112, 241, 0.925);
+    color: white;
+    padding: 10px;
+}
+/*Menu*/
+.menu .head h5{
+    color: darkblue;
+    cursor: pointer;
+}
+.menu .head h5:hover{
+    color: rgb(255, 123, 0);
+    transition: .2s;
+}
+/*line*/
+.line-in-spacer{
+    color: gray;
+}
+
+/*Deposit Box and Card box*/
+.main-box{
+    cursor: pointer;
+}
+.main-box h4{
+    color: darkblue;
+}
+.main-box p{
+    opacity: 90%;
+    color: gray;
+}
+.main-box .box1:hover .arrow img{
+    transform: translateX(10px);
+    transition: .4s;
+}
+.main-box h4:hover{
+    color:  rgb(255, 123, 0);
+    transition: .2s;
+}
+.main-box .box2:hover .arrow img{
+    transform: translateX(10px);
+    transition: .4s;
+}
+.main-box1 h5{
+    color: darkblue;
+}
+.main-box1 h5:hover{
+    color: rgb(255, 123, 0);
+    transition: .2s;
+}
+/*Annual report*/
+.main-box1 button{
+    background-color: rgba(230, 142, 10, 0.582);
+    padding: 5px 15px;
+    border-radius: 1rem;
+}
+.main-box1 button:hover{
+    background-color:  rgba(134, 82, 4, 0.685);
+}
+
+/*footer*/
+footer{
+    background: #DCEEFF73;
+    height: 500px;
+}
+footer h5{
+    color: darkblue;
+    font-size: 25px;
+    margin-top: 15px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+footer .footer p{
+    color: black;
+}
+
+
